@@ -1,0 +1,57 @@
+/* Navbar container */
+.navbar {
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+  }
+  
+  /* Navbar content container */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between; /* Logo on left, menu on right */
+    align-items: center;
+    max-width: 100%; /* Makes sure the navbar spans the full width */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navbar logo */
+  .navbar-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Navbar menu */
+  .navbar-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar items */
+  .navbar-item {
+    margin-left: 20px;
+  }
+  
+  /* Navbar links */
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+  }
+  
+  /* Hover effects */
+  .navbar-link:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05); /* Adds a small zoom effect */
+  }
+  
